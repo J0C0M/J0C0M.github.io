@@ -1,0 +1,118 @@
+html,body {
+    margin: 0;
+    background: #F5ECE3;
+    text-align: center;
+}
+
+/*header for home page*/
+
+.first-header-block {
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+    height: 592px;
+    width: 100%;
+    background-color: #DA7E89;
+    opacity: 100%;
+}
+
+.header-block-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 406px;
+    justify-content: center;
+    width: 581px; 
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+.header-contents {
+    display: flex;
+    gap: 30px;
+    margin-top: 66px;
+}
+
+.header-btn {
+    height: 85px;
+    width: auto;
+    background-color: #CE5A67;
+    border-radius: 5px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 56px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-quote {
+    width: 581px;
+    height: 253px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.img-JB-1 {
+    display: flex;
+    flex-direction: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 543px;
+
+}
+
+.home-second-header-block {
+    height: 500px;
+    width: 100%;
+    background-color: #FAF6F0;
+}
+
+/*footer for all pages*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #222222;
+    width: 100%;
+    height: 200px;
+}
+
+.footer-abt-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    background-color: #333333;
+    height: 200px;
+    width: 33%;
+}
+
+.footer-about {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    font-size: 56px;
+    color: white;
+    
+}
+
+.footer-contact {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    font-size: 56px;
+    color: #7EA3DA;
+}
+
+.footer-personal {
+
+}
+
+.gmail-img {
+    width: 25px;
+    height: 19px;
+}
