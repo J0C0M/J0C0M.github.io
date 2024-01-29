@@ -1,6 +1,6 @@
 html,body {
     margin: 0;
-    background: #F5ECE3;
+    background: #F4EAE0;
     text-align: center;
 }
 
@@ -46,6 +46,18 @@ html,body {
     font-size: 56px;
     padding-left: 10px;
     padding-right: 10px;
+    transition:  0.8s
+}
+
+.header-btn:hover {
+    background-color: #DA7E89;
+    transition: all 0.8s
+}
+
+.header-btn:after {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition: all 0.8s
 }
 
 .header-quote {
@@ -62,13 +74,325 @@ html,body {
     align-items: flex-end;
     height: 100%;
     width: 543px;
-
+    position: relative;
 }
 
-.home-second-header-block {
-    height: 500px;
+/*header for the rest of the pages*/
+
+.header-all-pag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+    background-color: black;
+    height: 133px;
+    width: auto;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+
+
+.header-all-btn {
+    color: #F4EAE0;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    outline: none;
+    font-size: 64px;
+}
+
+.header-all-btn:hover {
+    color: #7EA3DA;
+}
+
+/*main for all pages*/
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+/*about page*/
+
+.java-logo-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #7EA3DA;
+    height: 667px;
     width: 100%;
-    background-color: #FAF6F0;
+}
+
+.work-java-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 667px;
+    width: 50%;
+}
+
+.big-work {
+    font-family: 'Oswald', sans-serif;
+    font-size: 140px;
+}
+
+/*contact page*/
+
+.contact-blue-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2363B2;
+    height: 387px;
+    width: 100%;
+}
+
+.big-contact {
+    font-size: 128px;
+    color: #7EA3DA;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contact-page-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7EA3DA;
+    height: 770px;
+    width: 100%;
+}
+
+.contact-info-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4EAE0;
+    height: 655px;
+    width: 759px;
+    border-radius: 25px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li {
+    text-align: center;
+    color: #2363B2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+}
+
+/*home page*/
+
+.home-about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 667px;
+    background-color: #F9F5EF;
+}
+
+.home-about-first-block {
+display: flex;
+justify-content: center;
+height: auto;
+width: 50%;
+}
+
+.long-red-block {
+    position: absolute;
+    height: 667px;
+    width: 150px;
+    background-color: #DA7E89;
+}
+
+.white-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 2%;
+    height: 416px;
+    width: 430px;
+    border-radius: 100%;
+    background-color: #F9F5EF;
+}
+
+.jochem-home-img {
+    height: 387px;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.home-about-second-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 50%;
+}
+
+.text-about-p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-me-home {
+    color: black;
+    font-size: 68px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.About-home-link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-size: 28px;
+}
+
+.p-text-about {
+    text-align: start;
+    width: 546px;
+}
+
+.p-home-about {
+    color: black;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.arrow-about-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 546px;
+    gap: 10px;
+}
+
+.arrow-img {
+    height: 40px;
+    width: 40px;
+}
+
+.home-work-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 680px;
+    background-color: #222222;
+}
+
+.home-technovium-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+.technovium-home-img {
+    height: 280px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+.home-work-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 546px;
+    gap: 10px;
+}
+
+.work-home {
+    color: #F9F5EF;
+    font-size: 68px;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+
+.p-home-work {
+    color: #F9F5EF;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+.work-home-link {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: #F9F5EF;
+    font-size: 28px;
+}
+
+.p-text-work {
+    text-align: start;
+    width: 546px;
+} 
+
+.home-contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CE5A67;
+    width: 100%;
+    height: 500px;
+}
+
+.home-contact-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 720;
+}
+
+.home-contact {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    outline: none;
+    color: #F9F5EF;
+    font-size: 96px;
+    height: 120px;
+}
+
+.home-big-arrow-img {
+    margin-top: 30px;
+    height: 120px;
+    width: 120px;
+}
+
+.red-long-row {
+    display: flex;
+    flex-direction: row;
+    width: 721px;
+    margin-left: 15px;
+}
+
+.red-long-block {
+    background-color: #DA7E89;
+    width: 574px;
+    height: 20px;
 }
 
 /*footer for all pages*/
@@ -85,7 +409,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 15%;
     background-color: #333333;
     height: 200px;
     width: 33%;
@@ -95,24 +419,92 @@ footer {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     outline: none;
-    font-size: 56px;
     color: white;
-    
+    font-size: 28px;
+}
+
+.footer-about:hover {
+    color: #7EA3DA;
 }
 
 .footer-contact {
     font-family: 'Oswald', sans-serif;
     text-decoration: none;
     outline: none;
-    font-size: 56px;
     color: #7EA3DA;
+    font-size: 28px;
+}
+
+.footer-contact:hover {
+    color: white;
 }
 
 .footer-personal {
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    height: 200px;
+    width: 67%;    
 }
 
-.gmail-img {
-    width: 25px;
-    height: 19px;
+.footer-img {
+    width: 35px;
+    height: 26px;
+}
+
+.rondje {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2F3343;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-p-gmail {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #7795FF;
+}
+
+.footer-p-personal {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #9277FF;
+}
+
+
+
+/*media qeury*/ 
+
+
+@media (max-width: 1464px) {
+    .img-JB-1 {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1100px) { 
+}
+
+@media (max-width: 600px) {
+    .first-header-block {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-JB-1 {
+        width: 0%;
+        height: 0%;
+    }
 }
