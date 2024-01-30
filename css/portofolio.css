@@ -4,6 +4,12 @@ html,body {
     text-align: center;
 }
 
+.html-contact,.body-contact {
+    margin: 0;
+    background: #7EA3DA;
+    text-align: center;
+}
+
 /*header for home page*/
 
 .first-header-block {
