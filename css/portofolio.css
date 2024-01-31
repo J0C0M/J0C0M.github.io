@@ -125,15 +125,101 @@ main {
 
 /*about page*/
 
+.about-me-main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #7EA3DA;
+    height: 667px;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.big-about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4E8BD6;
+    border-radius: 5px;
+    height: 180px;
+    width: 460px;
+}
+
+.big-about {
+    font-size: 128px;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gamer-jochem-img {
+    border-radius: 10000px;
+    width: 697px;
+    height: 667px;
+}
+
+.over-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1072px;
+    width: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.long-blue-block {
+    display: flex;
+    align-items: center;
+    height: 1193px;
+    width: 400px;
+    background-color: #7EA3DA;
+    position: absolute;
+}
+
+.about-block-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #301D4F;
+    width: 1100px;
+    height: 400px;
+    padding-bottom: 47px;
+    padding-left: 41px;
+    padding-right: 41px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.over-p {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: left;
+}
+
+.big-over {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
 .about-opleiding-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 647px;
+    height: 1100px;
     width: 100%;
     background-color: #2F7BD8;
-    padding-bottom: 10px;
+    padding-bottom: 70px;
 }
 
 .about-opleiding-info-p { 
@@ -161,6 +247,62 @@ width: 600px;
     margin: 1%;
 }
 
+.techno-img {
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.vorige-studie-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222222;
+    height: 888px;
+    width: 100%;
+    gap: 0;
+    padding-top: 25px;
+}
+
+.about-vorige-p {
+    font-size: 64px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 1%;
+}
+
+.about-vorige-info-p { 
+    font-size: 32px;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    text-align: left;
+}
+
+.vorige-p-width {
+    width: 1100px;
+}
+
+.studie-p-width {
+    height: 547px;
+    width: 700px;
+}
+
+.vallei-img {
+    border-radius: 50px;
+}
+
+.about-studie-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+    gap: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 /*contact page*/
 
 .contact-blue-block {
@@ -183,7 +325,7 @@ width: 600px;
     align-items: center;
     justify-content: center;
     background-color: #7EA3DA;
-    height: 770px;
+    height: 1000px;
     width: 100%;
 }
 
@@ -191,10 +333,11 @@ width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F4EAE0;
+    background-color: #301D4F;
     height: 655px;
     width: 759px;
     border-radius: 25px;
+    padding: 25px;
 }
 
 ul {
@@ -279,7 +422,7 @@ li {
         flex-direction: column;
         align-items: center;
         height: 1077px;
-        width: 623px;
+        width: 100%;
         gap: 40px;
         background-color: #222222;
         padding-top: 70px;
@@ -295,43 +438,6 @@ li {
         margin-left: 5%;
         margin-right: 5%;
     }
-}
-
-@media (max-width: 1100px){
-    .periode-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 623px;
-        width: auto;
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-
-    .periode-block-outer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-        background-color: #F9F5EF;
-        width: 618px;
-        height: 1000px;
-        padding-bottom: 47px;
-        padding-left: 41px;
-        padding-right: 41px;
-        border-radius: 10px;
-        margin-bottom: 60px;
-        margin-top: 40px;
-    }
-
-    .periode-block-inner{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 618px;
-    }
-
 }
 
 .opleiding-info-p { 
