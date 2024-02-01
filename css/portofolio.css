@@ -123,6 +123,10 @@ main {
     flex-direction: column;
 }
 
+.main-about-color {
+    background-color: #3D00A0;
+}
+
 /*about page*/
 
 .about-me-main-container {
